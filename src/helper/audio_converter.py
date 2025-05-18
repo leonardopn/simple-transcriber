@@ -6,7 +6,6 @@ from helper.chronometer import Chronometer
 
 class AudioConverter:
     def m4a_to_wav(self) -> str:
-        print("")
         chronometer = Chronometer()
         chronometer.start()
 
@@ -25,5 +24,5 @@ class AudioConverter:
         print(
             f"[{elapsed_time}] - Conversion complete. Output saved to:", output_filename
         )
-        print("")
+
         return output_filename

@@ -17,7 +17,6 @@ class Transcriber:
         chronometer = Chronometer()
         chronometer.start()
 
-        print("")
         print("Loading whisper model...")
         model = whisper.load_model(model_name)
         print("Model loaded.")
@@ -36,6 +35,5 @@ class Transcriber:
         print(
             f"[{elapsed_time}] - Transcription complete. Output saved to:", output_file
         )
-        print("")
 
         return result["text"]
