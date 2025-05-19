@@ -26,7 +26,6 @@ class ProcessorJob:
         print("")
         Transcriber().transcribe_audio(
             audio_path=converted_wav_file_path,
-            model_name="large",
             language="pt",
         )
 

@@ -5,8 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "faster-whisper>=1.1.1",
     "ffmpeg-python>=0.2.0",
-    "openai-whisper>=20240930",
+    "hf-xet>=1.1.2",
 ]
 
 [dependency-groups]
